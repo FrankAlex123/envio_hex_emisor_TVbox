@@ -24,11 +24,11 @@ void enviarMensaje() {
 }
 
 
-/*void enviarMensaje() {
+void enviarMensaje() {
   String mensaje = "hola mundo";
   for (int i = 0; i < mensaje.length(); i++) {
     emisor_ir.sendSony(mensaje.charAt(i), 12);
     delay(20);
   }
   Serial.println("Mensaje enviado: hola mundo");
-}*/
+}
